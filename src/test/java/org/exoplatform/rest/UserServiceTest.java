@@ -3,6 +3,7 @@ package org.exoplatform.rest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+@Test(groups = "unit")
 public class UserServiceTest {
   @Test
   public void testUserFetchesSuccess() {
